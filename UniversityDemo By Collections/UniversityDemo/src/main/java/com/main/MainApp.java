@@ -30,50 +30,18 @@ public class MainApp {
 		Student student4 = new Student(14, "Saikiran", 25);
 		Student student5 = new Student(15, "Kalyan", 26);
 
-		Student student6 = new Student(16, "Varun", 22);
-		Student student7 = new Student(17, "Mouni", 23);
-		Student student8 = new Student(18, "Kevin", 24);
-		Student student9 = new Student(19, "Mike", 25);
-		Student student10 = new Student(20, "Vikas", 26);
-
-		Student student11 = new Student(21, "Arashad", 22);
-		Student student12 = new Student(22, "Naresh", 23);
-		Student student13 = new Student(23, "Junnu", 24);
-		Student student14 = new Student(24, "Sunitha", 25);
-		Student student15 = new Student(25, "Hema", 26);
-
-		Student student16 = new Student(26, "Mouni", 22);
-		Student student17 = new Student(27, "Kumar", 23);
-		Student student18 = new Student(28, "Janu", 24);
-		Student student19 = new Student(29, "Balu", 25);
-		Student student20 = new Student(30, "Mahesh", 26);
-
+		
 		List<Student> students = new ArrayList<>();
 		students.add(student1);
 		students.add(student2);
 		students.add(student3);
 		students.add(student4);
 		students.add(student5);
-		students.add(student6);
-		students.add(student7);
-		students.add(student8);
-		students.add(student9);
-		students.add(student10);
-		students.add(student11);
-		students.add(student12);
-		students.add(student13);
-		students.add(student14);
-		students.add(student15);
-		students.add(student16);
-		students.add(student17);
-		students.add(student18);
-		students.add(student19);
-		students.add(student20);
-
+		
 		Department department1 = new Department(101, "ECE", students);
-		Department department2 = new Department(102, "MCA", students);
-		Department department3 = new Department(201, "MBA", students);
-		Department department4 = new Department(202, "BCA", students);
+		Department department2 = new Department(102, "CSE", students);
+		Department department3 = new Department(201, "MS", students);
+		Department department4 = new Department(202, "EEE", students);
 		Set<Department> departments = new HashSet<>();
 		departments.add(department1);
 		departments.add(department2);
